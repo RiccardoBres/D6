@@ -1,0 +1,331 @@
+body {
+    margin: 0;
+    background-color: #e5e5e5;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+main {
+    margin: 0 auto;
+    width: 97%;
+}
+h3 {
+    background-color:#f56600;
+    padding: 8px;
+    color: white;
+    font-weight: 100;
+}
+
+#amazonhead {
+    background-color:#222f3e;
+    padding-bottom: 5px;
+    position: relative;
+}
+#logo {
+    height: 45px;
+    padding-left: 15px;
+    padding-top: 5px;
+
+}
+#logo2 {
+    height: 55px;
+}
+.amazonhead2 {
+    margin: 0;
+    background-color: rgb(52 52 86);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    position: fixed;
+    
+}
+.amazonhead2 p {
+    margin: 0;
+}
+
+
+h3 {
+    text-align:center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+h1 {
+    margin: 0;
+    padding-top: 70px;
+    color: white;
+}
+#immageback {
+
+    margin-bottom: 25px;
+    background-image: url(bg-image.png);
+    height: 140px;
+    text-align: center;
+    padding-bottom: 56px;
+
+}
+#immageback p {
+    color: white;
+}
+#serie {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+.serie {
+    background-color: white;
+}
+.serie p {
+    padding-left: 16px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+.serieimmagini {
+    height: 365px;
+    width: 340px;
+    border-radius: 10px 10px 10px 10px; 
+    box-shadow: 10px 10px 5px #bdbdbd;
+}
+.immagecent {
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    
+
+}
+
+
+#final {
+    background-color:#222f3e;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+#back {
+    background-color: rgb(52 52 86);
+    padding-top: 15px;
+    text-align: center;
+}
+a {
+    color: white;
+}
+.texthead {
+    
+    padding-left: 20px;
+    color: white;
+    
+}
+
+#link {
+    position: relative;
+    bottom: 9px;;
+}
+#immagedown p {
+    margin-top: 0;
+    text-align: center;
+}
+
+.fakelink {
+    color: rgb(55, 48, 243);
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.firstseries {
+    height: 90px;
+    width: 175px;
+}
+
+   
+
+#secondaserie {
+    display: flex;
+    justify-content: space-between;
+}
+.blocco {
+    margin-top: 30px;
+    padding-bottom: 300px;
+    width: 355px;
+    height: 220px;
+    background-color: white;
+
+
+}
+
+h2{
+    position: relative;
+    left: 28px;
+    bottom: -20px;
+}
+#firstline {
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: -2px;
+}
+.firstlinesecondblock {
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: -2px;
+    justify-content: space-evenly;
+}
+#secondline {
+    display: flex;
+    position: relative;
+    top: 60px;
+    left: -2px;
+}
+.immagesize {
+    height: 115px;
+    width: 178px;
+}
+.immagesizesecondblock {
+    height: 120px;
+    width: 150px;
+}
+.firstspan {
+    position: relative;
+    top: 35px;
+    left: 15px;
+}
+.secondspan {
+    position: relative;
+    top: 35px;
+    left: 130px;
+}
+#mice {
+    position: relative;
+    top: 75px;
+    left: 15px;
+
+}
+#chairs {
+    position: relative;
+    top: 75px;
+    left: 85px;
+
+}
+.seemore {
+    position: relative;
+    top: 155px;
+    color: blue;
+    right: 150px;
+    text-decoration: none;
+}
+#seemore2 {
+    position: relative;
+    top: 147px;
+    color: blue;
+    right: 132px;
+    text-decoration: none;
+
+}
+#seemore3 {
+    position: relative;
+    top: 147px;
+    color: blue;
+    right: 72px;
+    text-decoration: none;
+
+}
+#seemore4 {
+    position: relative;
+    top: 147px;
+    color: blue;
+    right: 165px;
+    text-decoration: none;
+
+}
+.joggers {
+    position: relative;
+    top: 35px;
+    left: 103px;
+
+}
+.secondlinesecondblock {
+    display: flex;
+    position: relative;
+    top: 65px;
+    left: -2px;
+    justify-content: space-evenly;
+
+}
+.Cardigans {
+    position: relative;
+    top: 70px;
+    left: 17px;
+}
+.tees {
+    position: relative;
+    top: 70px;
+    left: 107px;
+
+} 
+#beauty{
+    position: relative;
+    left: 146px;
+    top: 70px;
+}
+#electronics {
+    position: relative;
+    top: 36px;
+    left: 78px
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    transition: all 0.2s;
+    opacity: 0;
+    position: relative;
+    bottom: 373px;
+    margin-bottom: 0;
+}
+
+.overlay:hover {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 10px 10px 10px; 
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 1;
+}
+.like {
+    position: absolute;
+    top: -290px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    left: 265px;
+}
+.carrello {
+    background-color: #008bf2;
+    width: 275px;
+    height: 35px;
+    border-radius: 10px;
+    position: absolute;
+    left: 25px;
+    top: 322px;
+    opacity: 1;
+}
+.carrello1 {
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    left: 90px;
+    top: 5px;
+}
+.icona {
+    color: white;
+    position: absolute;
+    height: 45px;
+    width: 25px;
+    left: 43px;
+    bottom: -3px;
+}
+
+

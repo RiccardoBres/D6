@@ -1,0 +1,143 @@
+
+.container {
+    background-image: url(https://i.pinimg.com/564x/fb/59/5a/fb595a4490052d7ac09a27d7cd5e3829.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    border-radius: 10%;
+    position: relative;
+    left: 550px;
+    top: 100px;
+    overflow: hidden;
+}
+
+
+#overlay {
+    top:0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    transition: .5s ease;
+    border-radius: 10%;
+    opacity: 0;
+    height: 500px;
+    width: 400px;
+    
+    
+}
+#overlay:hover
+    {
+    opacity: 1;
+}
+
+    
+.bottoniinferiori {
+    display: flex;
+    position: absolute;
+    bottom: -10px;
+    left: 85px;
+    transition: all .6s ease;
+    cursor: pointer;
+    opacity: 0;
+}
+.bottoniinferiori:hover {
+ 
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: 85px;
+    opacity: 1;
+    cursor: pointer;
+    bottom: 10px;
+    left: 85px;
+   
+    
+}  
+
+
+#savebuttom {
+    position: absolute;
+    width: 95px;
+    height: 65px;
+    background-color: red;
+    left: 270px;
+    top: -10px;
+    border-radius: 40px;
+    opacity: 0;
+    cursor: pointer;
+
+}
+#savebuttom:hover {
+    opacity: 1;
+    position: absolute;
+    width: 95px;
+    height: 65px;
+    background-color: red;
+    left: 270px;
+    top: 30px;
+    border-radius: 40px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+    border: 0;
+    
+}
+
+.icons {
+    width: 50px;
+    height: 30px;
+    color: black;
+    position: absolute;
+    top: 3px;
+    right: -2.5px;
+}
+
+#icons {
+    width: 50px;
+    height: 25px;
+    color: black;
+    position: absolute;
+    padding-top: 13px;
+}
+
+#save{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 17px;
+    font-family: monospace;
+    font-weight: 800;
+}
+#bottom1 {
+    background-color: white;
+    width: 195px;
+    height: 45px;
+    border-radius: 25px;
+    position: absolute;
+    left: -45px;
+    top: 20px;
+}
+#bottom1 p {
+    font-size: 30px;
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    bottom: 5px;
+    left: 50px;
+}
+
+.bottm23 {
+    background-color: rgba(255, 255, 255, 0.655);
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 100%;
+    position: relative;
+    left: 155px;
+    top: 10px;
+}
